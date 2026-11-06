@@ -34,17 +34,21 @@ LEO = ("a 6-year-old boy, fluffy dark brown curly hair, warm brown skin, big dar
        "calm gentle half-smile, green T-shirt with a small white rocket print, grey jogger "
        "trousers with cuffs, white sneakers, small round orange headphones resting around his neck")
 TINY = "the creature is tiny, about the size of an apple, half the size of the girl's head"
-STYLE = ("classic hand-drawn 2D animation style, simple flat colors, clean soft outline, "
+STYLE = ("classic hand-drawn 2D animation style, bold dark outlines, simple flat colors, "
          "old-fashioned cartoon charm, children's picture book illustration")
-NO = "--ar 1:1 --no photorealistic, 3d, text, letters, words, orange hair, giant creature"
-SPACE = "wide view, the characters in the lower half of the picture, {top} filling the upper third of the picture"
+SREF_DAY = ["strony/podglad/strona_04_podglad.png", "strony/podglad/strona_06_podglad.png", "strony/podglad/strona_07_podglad.png"]
+SREF_NIGHT = ["strony/podglad/strona_08_podglad.png", "strony/podglad/strona_07_podglad.png", "strony/podglad/strona_04_podglad.png"]
+NO = "--no photorealistic, 3d, text, letters, words, orange hair, giant creature, white background, white border, sticker, frame"
+SPACE = "wide view, {top} above them"
 HAIR_WITH_LEO = "the girl's hair is neat and smooth, not fluffy, only the boy has fluffy hair"
 
 
-def p(refs, scene, extra_no=""):
+def p(refs, scene, extra_no="", night=False):
     urls = " ".join(REF[r] for r in refs)
+    sref = " ".join(RAW + x for x in (SREF_NIGHT if night else SREF_DAY))
     no = NO + (", " + extra_no if extra_no else "")
-    return f"{urls} {scene}, {STYLE} {no}"
+    return (f"{urls} full-bleed scene illustration, the background fills the whole frame edge to edge, "
+            f"{scene}, {STYLE} --ar 1:1 --iw 0.25 --sw 300 --sref {sref} {no}")
 
 
 PAGES = {
@@ -174,7 +178,7 @@ PAGES = {
         "the creature from the second image cuddled up against her cheek on the pillow, its white star glowing "
         "again, the size of an apple, a round window with a dark night sky and tiny stars, "
         f"the girl: {GIRL_PJ}, the creature: {LUMI}, deep navy blue night colors, "
-        + SPACE.format(top="plain dark night wall"), "green blanket, white blanket, dungarees, overalls"),
+        + SPACE.format(top="plain dark night wall"), "green blanket, white blanket, dungarees, overalls", night=True),
     "27": p(["A_SPOKOJ", "L"],
         "night, the girl from the first image sitting up in a wooden bed under a soft light blue blanket, "
         "now wearing pink pajamas instead of dungarees, one hand on her heart, eyes closed, a peaceful happy smile, "
@@ -182,7 +186,7 @@ PAGES = {
         "of her chest, its white star glowing with exactly the same light, a soft beam of golden light joining "
         "the two stars, the size of an apple, magical warm glow in a dark navy bedroom, "
         f"the girl: {GIRL_PJ}, the creature: {LUMI}, "
-        + SPACE.format(top="plain dark night wall"), "green blanket, dungarees, overalls"),
+        + SPACE.format(top="plain dark night wall"), "green blanket, dungarees, overalls", night=True),
     "28": p(["A", "LEO", "L"],
         "a sunny school playground, the girl from the first image and the boy from the second image kneeling "
         "side by side drawing simple chalk stars and a star constellation on the ground, both smiling, "
@@ -212,6 +216,12 @@ PAGES = {
         f"the girl: {GIRL}, the creature: {LUMI}, "
         "a soft blue sky with a few small stars and gentle clouds, " + SPACE.format(top="open clear sky")),
 }
+
+SAD = ["12", "16", "17", "18", "19", "20", "21"]
+for k in SAD:
+    PAGES[k] = PAGES[k].replace("tiny smile, a small glowing white five-pointed star",
+                                "a small sad frown, a small dim white five-pointed star")
+PAGES["14"] = PAGES["14"].replace("tiny smile, a small glowing", "a small worried mouth, a small glowing")
 
 out = Path(__file__).with_name("prompty.json")
 out.write_text(json.dumps(PAGES, ensure_ascii=False, indent=2), encoding="utf-8")
