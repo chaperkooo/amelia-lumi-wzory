@@ -65,3 +65,14 @@ Panel „Add images” (ikonka po lewej od pola promptu). Kolejność (najnowsze
 - Scena w klasie: NIE pokazywać Amelii twarzą do nas, a reszty klasy tyłem (wygląda, jakby siedziała tyłem do wszystkich).
   Dobrze: „classroom seen from the front, from where the teacher stands, all children facing forward towards the viewer”, nauczyciel z boku.
 - Każda strona: wzór Amelii z właściwą emocją z biblioteki + właściwy Lumi (kolczasty przy hałasie/złości, spokojny przy smutku).
+
+## Praktyczne w przeglądarce / Browser practicalities (12.11)
+- Pracować partiami: wysłać kilka stron pod rząd (Relax wykonuje po kolei), potem sprawdzić wszystkie.
+- Przed wysłaniem powiększyć pole promptu: czy właściwe wzory, w dobrej kolejności, czy prompt wpisał się cały
+  (wpisywanie długiego promptu czasem zgłasza błąd „timeout”, a tekst i tak się wpisuje).
+- Kolejność miniatur w bibliotece zmienia się po wgraniu nowych — wybierać po wyglądzie.
+- Panel biblioteki zamykać klawiszem Escape albo ikonką obrazka (krzyżyk bywa zasłonięty).
+- Duży podgląd: strzałki ← → przełączają 4 wersje; ikonka folderu dodaje do folderu (sprawdzić, czy pojawiła się etykieta folderu).
+- Edytor ma własne załączniki tylko z biblioteki — obrazków z galerii nie da się tam dołączyć.
+- Po wpisaniu promptu w edytorze i „Submit edit” licznik „Create 0/1” przy menu pokazuje, że zadanie ruszyło.
+- Do folderu „KSIAZKA strony gotowe” dodawać dopiero po akceptacji (od 12.11; strony 15–19 trafiły tam wcześniej — usunąć, jeśli odrzucone).
