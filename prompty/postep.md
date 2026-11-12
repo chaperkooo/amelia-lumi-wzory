@@ -19,7 +19,21 @@ Wracamy do sposobu, który zadziałał przy stronach 3–8:
 - W edytorze: Smart Select świetnie zaznacza Lumi i podłogę jednym kliknięciem. Pędzel ~100 px.
   Scale 73% + przesunięcie na dół = ok. 1/3 strony wolne na tekst.
 
-## Stan / Status
+## Jak dodać kolczastego Lumi bez wgrywania pliku / Spiky Lumi without uploading
+- Oryginał lumi_03_kolczasty jest w galerii Midjourney: job 2ef3df6f-d611-4f68-a3d8-376ffc7729af (index 0, 24.09.2026,
+  folder „Amelia and Lumi”). Organize → szukaj „pinecone”.
+- Przeciągnąć obrazek z galerii na pole „Attach to prompt” (najpierw kliknąć Amelię z biblioteki, potem przeciągnąć Lumi).
+- Kłódka (lock) przy załącznikach = zostają po wysłaniu, można puścić kilka stron pod rząd.
+- Edytor ma osobne załączniki (tylko pliki z biblioteki), więc Lumi trzeba mieć dobrego już w wygenerowanym obrazku.
+
+## GOTOWE KANDYDATY (12.11.2026) / Candidates
+- Strona 9: job 28b911b5-4685-43b0-9b98-815d7156a48a, index 0 (baza: 82d1ae9e-0608-425c-9832-2c20f5e64d96 index 0).
+  Amelia OK, Lumi kolczasty OK (odrobinę jaśniejszy/złotawy), miejsce na tekst u góry ok. 1/4 strony.
+- Strona 10: job 603c11f4-577c-4ee0-a512-cdbbf69f8655, index 0 (baza: d1971cbb-ba4a-4314-a38c-d0290d6cbb03 index 3).
+  Amelia OK, Lumi kolczasty OK, dużo miejsca na tekst u góry.
+- W obu: delikatna pionowa linia narożnika ściany u góry.
+
+## Stan (wcześniejszy) / Earlier status
 - Strona 9: kandydat = job 28f05396-3f97-4a16-8462-ea8af1b44af0, wersja 2 (index=1).
   Amelia OK. Lumi kształt OK, kolor za żółty (ochra) → poprawić w edytorze z wzorem lumi_03.
   Brak jeszcze miejsca na tekst.
