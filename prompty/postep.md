@@ -26,6 +26,18 @@ Wracamy do sposobu, który zadziałał przy stronach 3–8:
 - Kłódka (lock) przy załącznikach = zostają po wysłaniu, można puścić kilka stron pod rząd.
 - Edytor ma osobne załączniki (tylko pliki z biblioteki), więc Lumi trzeba mieć dobrego już w wygenerowanym obrazku.
 
+## Wszystkie wzory są w Midjourney / All references are in Midjourney
+- Organize → Folders → „Amelia and Lumi” (28 obrazków): wszystkie emocje Amelii 02–08, sceny razem_01, Lumi kolczasty.
+- Biblioteka „Attach to prompt” ma tylko 3: Leo, Amelia WZOR, Lumi spokojny. Resztę przeciągać z folderu na pole „Attach to prompt”.
+- Wgrać pliku z GitHuba nie da się (Midjourney wymaga akcji człowieka), ale nie trzeba — oryginały są w folderze.
+- UWAGA: generowanie przy otwartym folderze dopisuje nowe obrazki do folderu. Generować ze strony Create.
+
+## Wnioski cd. / More lessons
+- Gdy Lumi „przytula się” do Amelii (snuggled, touching), robi się wielki jak jej tułów. Zawsze „floating in the air beside…”, „the size of the girl's fist”.
+- „dim room” przyciemnia włosy Amelii na brązowo. Używać „soft warm light” i --no dark hair, brown hair.
+- Złość / emocje: dodać „the girl's hair is neat and smooth, not fluffy” i --no messy hair.
+- Edytor: pociągnięcie gumką zaczynać daleko od rogów obrazka — start przy rogu obraca obrazek o 90°.
+
 ## GOTOWE KANDYDATY (12.11.2026) / Candidates
 - Strona 9: job 28b911b5-4685-43b0-9b98-815d7156a48a, index 0 (baza: 82d1ae9e-0608-425c-9832-2c20f5e64d96 index 0).
   Amelia OK, Lumi kolczasty OK (odrobinę jaśniejszy/złotawy), miejsce na tekst u góry ok. 1/4 strony.
