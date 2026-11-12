@@ -76,3 +76,11 @@ Panel „Add images” (ikonka po lewej od pola promptu). Kolejność (najnowsze
 - Edytor ma własne załączniki tylko z biblioteki — obrazków z galerii nie da się tam dołączyć.
 - Po wpisaniu promptu w edytorze i „Submit edit” licznik „Create 0/1” przy menu pokazuje, że zadanie ruszyło.
 - Do folderu „KSIAZKA strony gotowe” dodawać dopiero po akceptacji (od 12.11; strony 15–19 trafiły tam wcześniej — usunąć, jeśli odrzucone).
+
+## Rygor 95% twarzy i detali (od 12.11, prośba użytkownika) / 95% face and detail rigor
+- Każda twarz: oczy, brwi, nos, usta; Lumi: oczy i usta. Brak któregokolwiek = odrzucenie.
+- Do promptu dopisywać TWARZE (stały opis w instrukcjach) i konkretną mimikę (brwi, usta, łzy).
+- W --no tylko „faceless”; nigdy osobno face, mouth, eyes, nose.
+- Amelia ≥ ok. 1/3 wysokości obrazka, żeby mimika była czytelna.
+- Ponowne sprawdzenie stron 15–19 tym rygorem: 15 OK; 16 włosy za bujne; 17 dzieci w tle bez czytelnych twarzy;
+  18 twarz Amelii i usta Lumi za małe; 19 nie widać szelek (zasłonięte rękami).

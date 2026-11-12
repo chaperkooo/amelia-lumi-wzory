@@ -62,6 +62,8 @@ LUMI PRZYTŁOCZONY: the same creature covered in rounded triangular spikes, squi
 
 WIELKOŚĆ LUMI: floating in the air beside the girl's shoulder, about the size of the girl's fist, much smaller than the girl's head
 
+TWARZE: every person has a complete clearly drawn face with two eyes, eyebrows, a nose and a mouth, the creature's eyes and small mouth clearly visible
+
 LEO: a 6-year-old boy, fluffy dark brown curly hair, warm brown skin, big dark brown eyes, calm gentle half-smile, green T-shirt with a small white rocket print, grey jogger trousers with cuffs, white sneakers, small round orange headphones resting around his neck
 
 AMELIA + LEO RAZEM (dopisz, gdy oboje są na obrazku): the girl's hair is neat and smooth, not fluffy, only the boy has fluffy hair
@@ -77,6 +79,7 @@ KOŃCÓWKA: --ar 1:1 --no photorealistic, 3d, text, letters, banner, orange hair
 
 Zmiany zależne od emocji (reszta opisów zostaje bez zmian):
 - Amelia czuje coś innego niż radość: usuń z jej opisu tylko „big wide smile”, opisz emocję w scenie, dopisz WŁOSY PRZY EMOCJACH i dodaj do --no: messy hair.
+- Mimikę zawsze opisuj konkretnie: oczy, brwi i usta (np. „eyebrows raised, mouth turned down, tears on her cheeks”, „eyes squeezed shut, mouth pressed tight”). Samo „sad” albo „upset” to za mało.
 - Lumi smutny, zmęczony, zagubiony: zamiast LUMI wklej LUMI SMUTNY.
 - Lumi przy hałasie, złości, przytłoczeniu: wklej LUMI PRZYTŁOCZONY i dodaj do --no: yellow creature.
 - Amelia w piżamie: wzór Amelii ma ogrodniczki, więc dodaj do --no: dungarees, overalls, straps (jeszcze niesprawdzone w V8.2).
@@ -112,10 +115,10 @@ Jak zbudować prompt do strony:
    - Amelia i Lumi: 1. wzór Amelii z właściwą emocją, 2. właściwy wzór Lumi (tabela w <wzory>). Prompt: „the girl from the first image … the creature from the second image …”.
    - Z Leo: 1. Amelia, 2. Leo, 3. Lumi. Prompt: „the girl from the first image … the boy from the second image … the creature from the third image …”.
    - Sama Amelia: tylko jej wzór. Prompt: „the same girl, now …”.
-2. Kadr: zacznij od „wide view from a distance” i dopisz „her whole body visible”. W oddalonym widoku postacie lepiej zgadzają się ze wzorem i zostaje miejsce na tekst.
+2. Kadr: zacznij od „wide view from a distance” i dopisz „her whole body visible”. W oddalonym widoku postacie lepiej zgadzają się ze wzorem i zostaje miejsce na tekst. Ale Amelia ma zajmować co najmniej około 1/3 wysokości obrazka: jej twarz i mimika muszą być czytelne w druku. Gdy twarz wychodzi za mała, przybliż kadr („medium-wide view”).
 3. Scena: Amelia stoi sama na pierwszym planie, inne postacie są kilka kroków dalej w tle. Lumi: WIELKOŚĆ LUMI.
 4. Tło: „one continuous plain [kolor] wall filling the whole upper third of the picture” (na dworze: „plain pale blue sky”). To od razu daje miejsce na tekst, a „one continuous” usuwa narożniki ścian i kolumny.
-5. Dopisz stałe opisy postaci z <postacie_i_miejsca>, potem STYL i KOŃCÓWKĘ. Do --no dodaj rzeczy, które psują tę konkretną scenę (np. lockers, sign, children seen from behind).
+5. Dopisz stałe opisy postaci z <postacie_i_miejsca>, potem TWARZE, STYL i KOŃCÓWKĘ. Do --no dodaj rzeczy, które psują tę konkretną scenę (np. lockers, sign, children seen from behind, faceless). Nigdy nie wpisuj do --no słów face, mouth, eyes ani nose jako osobnych słów, bo Midjourney może usunąć twarz.
 6. Opisuj to, co ma być widać: pozę, światło, kolory, miejsce. Zamiast ogólników typu „beautiful, detailed, masterpiece” używaj konkretów. Rzeczy, których ma nie być, dopisuj do --no, a nie do zdania („without…”).
 
 Co działa, a czego unikać (pełna, aktualna lista jest w prompty/postep.md):
@@ -142,7 +145,7 @@ Ilustracje generujesz w mojej przeglądarce na midjourney.com (Claude in Chrome)
 1. Sprawdź, czy midjourney.com jest otwarte i czy jestem zalogowany. Gdy trzeba się zalogować albo pojawi się CAPTCHA, zatrzymaj się i poproś mnie o pomoc.
 2. Pracuj partiami: ustaw załączniki i prompt dla jednej strony, wyślij i od razu przygotuj kolejną (do około 5 stron naraz). Relax wykonuje je po kolei, a Ty w tym czasie nie czekasz bezczynnie.
 3. Przed każdym wysłaniem powiększ zrzut pola promptu i sprawdź: czy załączone są właściwe wzory, w dobrej kolejności, i czy prompt wpisał się w całości.
-4. Gdy obrazki są gotowe, obejrzyj wszystkie 4 wersje (strzałki w dużym podglądzie). Najlepszą sprawdź w powiększeniu według <lista_kontrolna>.
+4. Gdy obrazki są gotowe, obejrzyj wszystkie 4 wersje (strzałki w dużym podglądzie). Najlepszą sprawdź według <lista_kontrolna>: osobny zrzut w dużym powiększeniu na twarz Amelii, na Lumi i na każdą inną twarz.
 5. Najlepszego kandydata zapisz od razu: podgląd do strony/gotowe/, wiersz w GOTOWE.md ze statusem „czeka”, wpis w prompty/log.md. Potem wyślij mi podgląd i raport. Gdy żaden się nie nadaje, popraw prompt i spróbuj jeszcze raz. Po 3 nieudanych próbach przy jednej stronie zatrzymaj się i napisz mi, co nie wychodzi.
 6. Gdy zaakceptuję stronę: dodaj obrazek do folderu „KSIAZKA strony gotowe” w Midjourney (ikonka folderu w dużym podglądzie) i zmień status w GOTOWE.md na „zaakceptowana”. Gdy odrzucę stronę, usuń ją z folderu, jeśli tam trafiła.
 7. Gdy obrazek przypadkiem trafi do innego folderu (np. „Amelia and Lumi” ze wzorami), usuń go stamtąd.
@@ -153,7 +156,12 @@ Gdy przeglądarka przestaje odpowiadać, odczekaj chwilę i zrób zrzut ekranu, 
 
 <lista_kontrolna>
 Sprawdzaj każdy obrazek, który wygenerujesz albo wkleję, i wypisz każdą różnicę, nawet małą.
-- Amelia: zielone oczy; piegi; włosy jasny blond, przylegające do głowy (nie bujne, nie puszyste, nie rude ani pomarańczowe); biała koszulka z żółtą gwiazdką; niebieskie ogrodniczki z szelkami; brązowe buty.
+
+Rygor 95%: obrazek przechodzi tylko wtedy, gdy co najmniej 95% szczegółów zgadza się ze wzorem, a żadnego elementu twarzy ani stałego detalu nie brakuje. Brak ust, oczu, brwi, nosa, piegów, gwiazdki na koszulce, szelek albo gwiazdki Lumi to zawsze odrzucenie, nawet gdy reszta jest piękna. Każdą twarz oglądaj osobno w dużym powiększeniu, obok wzoru. Gdy twarz jest za mała, żeby ocenić mimikę, kadr jest za daleki: odrzuć albo przybliż.
+
+- Twarze i mimika: każda twarz ma dwoje oczu, brwi, nos i usta, wyraźnie narysowane i na swoim miejscu. Lumi ma oczy (otwarte albo zaciśnięte kreski) i małe usta. Postacie w tle też mają pełne twarze, nikt nie jest bez twarzy. Mimika pasuje do emocji ze strony (płacz: łzy i opuszczone kąciki ust; złość: zmarszczone brwi; radość: uśmiech) i jest taka sama u Amelii i Lumi. Nie ma krzywych ani zdeformowanych oczu, podwójnych ust ani dodatkowych palców.
+- Kolory (porównaj ze wzorem obok siebie): włosy Amelii ciepły piaskowy blond jak pszenica (nie biały, nie rudy, nie ciemny); oczy zielone; koszulka biała, gwiazdka żółta; ogrodniczki niebieskie (nie szare, zielone ani brązowe); buty ciemnobrązowe; Lumi wiewiórczo-brązowy; gwiazdka Lumi biała (przygaszona: kremowo-szara). Ten sam odcień na każdej stronie.
+- Amelia: zielone oczy; brwi; piegi na policzkach i nosie; włosy jasny blond, przylegające do głowy (nie bujne, nie puszyste, nie rude ani pomarańczowe); biała koszulka z żółtą gwiazdką; niebieskie ogrodniczki z szelkami; brązowe buty.
 - Lumi: brązowy (nie pomarańczowy ani żółty), okrągły; biała pięcioramienna gwiazdka (przygaszona, gdy jest smutny albo kolczasty); bez ogona i uszu; mniejszy od głowy Amelii; unosi się przy Amelii, a nie przy innej postaci.
 - Leo (gdy jest na obrazku): ciemnobrązowe kręcone włosy; zielona koszulka z białą rakietą; szare spodnie; białe trampki; pomarańczowe słuchawki na szyi.
 - Scena: pasuje do tekstu strony i ma sens. Kto na kogo patrzy i kto jest do kogo zwrócony (np. w klasie wszyscy siedzą przodem, Amelia nie siedzi tyłem do innych). Emocja Amelii i wygląd Lumi pasują do strony. Amelia chowa się pod schodami albo w kącie, nigdy w szafce.
@@ -176,7 +184,7 @@ Układ repozytorium:
 - prompty/postep.md: wnioski i stan prac,
 - prompty/log.md: każda generacja (data, strona, załączone wzory, job ID, wynik i powód odrzucenia). Pełny tekst promptu Midjourney zapisuje w zadaniu, więc wystarczy job ID,
 - prompty/instrukcje_projektu.md: ta instrukcja (kopia),
-- tekst/: pełny tekst książki PL i EN (do uzupełnienia).
+- tekst/: pełny tekst książki PL i EN (ksiazka_pl_en.md) oraz osobno tekst_PL.md i tekst_EN.md do składania,
 
 Po każdej partii stron zrób jeden commit z opisem po polsku i po angielsku, np. „Strony 20–22: kandydaci / Pages 20–22: candidates” albo „Strona 20 zaakceptowana / Page 20 approved”. Nowe wnioski od razu dopisuj do postep.md. Pliki w repozytorium piszemy tak jak dotąd: po polsku i po angielsku.
 </github>
@@ -212,7 +220,7 @@ Przykłady pokazują układ odpowiedzi. Nie kopiuj ich treści do innych stron.
 Smutna Amelia w szkolnym korytarzu, smutny Lumi. Załączniki: 1. amelia_05_smutek_a, 2. lumi_01_spokojny_WZOR.
 
 ```text
-wide view from a distance, a quiet corner of a school hallway, the girl from the first image sitting alone on the floor, her whole body visible, hugging her knees, looking down with a sad face, the creature from the second image floating in the air beside the girl's shoulder, about the size of the girl's fist, much smaller than the girl's head, soft warm light, the girl: a 6-year-old girl, light golden blonde shoulder-length hair with gentle loose curls lying close to her head, the girl's hair is neat and smooth, not fluffy, a few light freckles on her cheeks and nose, small green eyes, white T-shirt with a small yellow star print, blue dungarees with straps and bib pocket, dark brown shoes, the creature: a small round fluffy squirrel-brown ball creature, big dark oval eyes, a small sad frown, a small dim white five-pointed star on its forehead, no tail, no ears, smaller than the girl's head, one continuous plain pale cream wall filling the whole upper third of the picture, classic hand-drawn 2D animation style, simple flat colors, clean soft outline, old-fashioned cartoon charm, children's picture book illustration --ar 1:1 --no photorealistic, 3d, text, letters, banner, orange hair, dark hair, brown eyes, giant creature, orange creature, messy hair
+wide view from a distance, a quiet corner of a school hallway, the girl from the first image sitting alone on the floor, her whole body visible, hugging her knees, looking down, eyebrows raised in the middle, mouth turned down, the creature from the second image floating in the air beside the girl's shoulder, about the size of the girl's fist, much smaller than the girl's head, soft warm light, the girl: a 6-year-old girl, light golden blonde shoulder-length hair with gentle loose curls lying close to her head, the girl's hair is neat and smooth, not fluffy, a few light freckles on her cheeks and nose, small green eyes, white T-shirt with a small yellow star print, blue dungarees with straps and bib pocket, dark brown shoes, the creature: a small round fluffy squirrel-brown ball creature, big dark oval eyes, a small sad frown, a small dim white five-pointed star on its forehead, no tail, no ears, smaller than the girl's head, every person has a complete clearly drawn face with two eyes, eyebrows, a nose and a mouth, the creature's eyes and small mouth clearly visible, one continuous plain pale cream wall filling the whole upper third of the picture, classic hand-drawn 2D animation style, simple flat colors, clean soft outline, old-fashioned cartoon charm, children's picture book illustration --ar 1:1 --no photorealistic, 3d, text, letters, banner, orange hair, dark hair, brown eyes, giant creature, orange creature, messy hair, faceless
 ```
 </przyklad_promptu>
 
@@ -220,7 +228,8 @@ wide view from a distance, a quiet corner of a school hallway, the girl from the
 **Strona 20 — kandydat / candidate**
 - Job ID: 1a2b3c4d-…, wersja / index: 2
 - Wzory / references: amelia_05_smutek_a + lumi_01_spokojny_WZOR
-- Zgodne / OK: oczy, piegi, włosy, ogrodniczki z szelkami, Lumi mniejszy od głowy, scena pasuje do tekstu
+- Twarze / faces: Amelia — oczy, brwi, nos, usta, piegi ✅; Lumi — oczy i usta ✅; postacie w tle ✅
+- Zgodne / OK: kolor włosów i oczu, ogrodniczki z szelkami, Lumi mniejszy od głowy, scena pasuje do tekstu
 - Różnice / differences: żółta gwiazdka na koszulce prawie niewidoczna
 - Miejsce na tekst / text space: około 1/3 strony u góry, bez linii i narożników
 - Status: czeka na Twoją akceptację / waiting for your approval
