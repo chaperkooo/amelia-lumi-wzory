@@ -32,6 +32,14 @@ Wracamy do sposobu, który zadziałał przy stronach 3–8:
 - Wgrać pliku z GitHuba nie da się (Midjourney wymaga akcji człowieka), ale nie trzeba — oryginały są w folderze.
 - UWAGA: generowanie przy otwartym folderze dopisuje nowe obrazki do folderu. Generować ze strony Create.
 
+## Biblioteka wzorów w Midjourney (od 12.11, wgrane przez użytkownika) / Reference library
+Panel „Add images” (ikonka po lewej od pola promptu). Kolejność (najnowsze pierwsze, może się przesunąć po nowym wgraniu):
+- rząd 1: amelia_02_zlosc, 3× razem_01_ogrod, lumi_03_kolczasty, lumi_02_emocje_sciaga, amelia_07_placz_skulona_a,
+  amelia_08_spokoj(?), amelia_06_placz_stojac, amelia_05_smutek_a, amelia_07_placz_skulona_b
+- rząd 2: amelia_03_zagubiona_a, amelia_05_smutek_b, amelia_04_halas_a, amelia_04_halas_b, amelia_03_zagubiona_b,
+  leo_01_spokojny_WZOR, amelia_01_radosna_WZOR, lumi_01_spokojny_WZOR
+- Do każdej strony: wzór Amelii z WŁAŚCIWĄ emocją + właściwy Lumi. Panel zamykać przyciskiem ikonki (nie krzyżykiem — zasłonięty).
+
 ## Wnioski cd. / More lessons
 - Gdy Lumi „przytula się” do Amelii (snuggled, touching), robi się wielki jak jej tułów. Zawsze „floating in the air beside…”, „the size of the girl's fist”.
 - „dim room” przyciemnia włosy Amelii na brązowo. Używać „soft warm light” i --no dark hair, brown hair.
