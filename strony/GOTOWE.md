@@ -1,4 +1,4 @@
-# Zaakceptowane ilustracje / Accepted illustrations
+# Zaakceptowane ilustracje (strony 9–14 zaakceptowane przez użytkownika 12.11.2026; 15–19 czekają na akceptację) / Accepted illustrations
 
 Tu jest lista stron, które są GOTOWE do składania książki.
 This is the list of pages that are READY for building the book.
@@ -29,3 +29,8 @@ This is the list of pages that are READY for building the book.
 | 12 | Okno, deszcz, Amelia płacze, tata klęczy, smutny Lumi / Window, rain, Amelia cries, dad kneels | 5c51fe72-f6e0-4c59-a11e-acdb16d6decd | 1 | `strony/gotowe/strona_12_podglad.png` | wzór amelia_06_placz_stojac; miejsce u góry / space at top |
 | 13 | Kocyk na kanapie jak namiot, Amelia spokojna, Lumi świeci / Blanket tent on sofa, calm | 980e6b1a-c5dd-41c4-b972-1a4c0677e52c | 0 | `strony/gotowe/strona_13_podglad.png` | dużo miejsca u góry / lots of space at top |
 | 14 | Przed szkołą, Amelia niepewna, Lumi wygląda zza ramienia / In front of school, unsure | 40a3b417-5055-4ad7-afef-1db0f47a8fa7 | 0 | `strony/gotowe/strona_14_podglad.png` | wzór amelia_03_zagubiona; niebo na tekst / sky for text |
+| 15 | Hałaśliwy korytarz, dzwonek, dzieci biegną, Amelia zatyka uszy, kolczasty Lumi / Noisy hallway | 72abaa37-7648-4b52-bd94-1b7e57df71ef | 0 | `strony/gotowe/strona_15_podglad.png` | wzór amelia_04_halas; miejsce u góry / space at top |
+| 16 | Klasa widziana od tablicy, wszyscy przodem, Amelia zmęczona, Lumi leży na ławce / Classroom from the front | b9f29478-20a0-4c97-b4e0-8bc592d3c38f | 1 | `strony/gotowe/strona_16_podglad.png` | poprawione: wcześniej Amelia siedziała tyłem do klasy; tekst u góry po prawej |
+| 17 | Boisko, Amelia sama z kredą i gwiazdkami, dzieci daleko / Playground, alone with chalk | dd85807f-652d-41ca-a30b-5cdb489d79dc | 0 | `strony/gotowe/strona_17_podglad.png` | niebo na tekst / sky for text |
+| 18 | Pusty korytarz, Amelia idzie ze spuszczoną głową, gwiazdka Lumi zgasła / Empty corridor, head down | 3b381d58-7ac6-4d6a-9fec-2e3bfb702fb5 | 3 | `strony/gotowe/strona_18_podglad.png` | dużo miejsca u góry / lots of space |
+| 19 | Pod schodami, Amelia skulona płacze, Lumi obok / Under the stairs, crying | 54816de7-7665-4e3d-ac27-8494e29065c8 | 2 | `strony/gotowe/strona_19_podglad.png` | wzór amelia_07_placz_skulona; tekst w prawym górnym rogu |

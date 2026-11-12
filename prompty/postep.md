@@ -60,3 +60,8 @@ Panel „Add images” (ikonka po lewej od pola promptu). Kolejność (najnowsze
 - Strona 10: baza = job fb063e67-69e8-46f5-80f6-588a338a9a85, wersja 1 (Amelia sama z przodu, dzieci i mama w tle).
   Edycja 7b1436ea-572a-492a-96b8-b5b29d4aba85: miejsce na tekst + beżowa podłoga OK, ale Lumi wygląda jak ciastko → poprawić z wzorem lumi_03.
 - Czekamy, aż użytkownik wgra lumi_03_kolczasty.png do biblioteki Midjourney.
+
+## Wnioski 12.11 popołudnie / Afternoon lessons
+- Scena w klasie: NIE pokazywać Amelii twarzą do nas, a reszty klasy tyłem (wygląda, jakby siedziała tyłem do wszystkich).
+  Dobrze: „classroom seen from the front, from where the teacher stands, all children facing forward towards the viewer”, nauczyciel z boku.
+- Każda strona: wzór Amelii z właściwą emocją z biblioteki + właściwy Lumi (kolczasty przy hałasie/złości, spokojny przy smutku).
