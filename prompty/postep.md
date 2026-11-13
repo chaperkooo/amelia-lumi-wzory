@@ -84,3 +84,10 @@ Panel „Add images” (ikonka po lewej od pola promptu). Kolejność (najnowsze
 - Amelia ≥ ok. 1/3 wysokości obrazka, żeby mimika była czytelna.
 - Ponowne sprawdzenie stron 15–19 tym rygorem: 15 OK; 16 włosy za bujne; 17 dzieci w tle bez czytelnych twarzy;
   18 twarz Amelii i usta Lumi za małe; 19 nie widać szelek (zasłonięte rękami).
+
+## Wnioski 13.11 / Lessons
+- Schody: „closed wooden staircase, a solid wooden slope with closed sides, no railing and no balusters” + --no railing, balusters, banister. Poręcze dawały pionowe linie w miejscu na tekst.
+- Lumi bez łapek: „a simple round ball with no arms and no legs” + --no paws.
+- Szelki przy skulonej pozie: „arms hugging her shins low, so … both dungaree straps are clearly visible”.
+- Twarz czytelna: „the girl fills about half of the picture height” albo „medium-wide view”.
+- Klasa: wzór amelia_05_smutek (stojąca) daje lepszą twarz niż siedząca; Lumi „on top of her desk” zamiast „next to her hands”.

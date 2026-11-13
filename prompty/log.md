@@ -22,3 +22,11 @@ Every generation: date, page, references, job ID, result. The full prompt is sto
 | 12.11 | 17 | amelia_05_smutek + lumi_01 | b8bf2c47-07cf-49bf-9ce1-c643c70e1733 (1) → edycja dd85807f-652d-41ca-a30b-5cdb489d79dc (0) | kandydat |
 | 12.11 | 18 | amelia_05_smutek + lumi_01 | 3b381d58-7ac6-4d6a-9fec-2e3bfb702fb5 (3) | kandydat |
 | 12.11 | 19 | amelia_07_placz_skulona + lumi_01 | 54816de7-7665-4e3d-ac27-8494e29065c8 (2) | kandydat |
+| 12.11 | 16 | amelia_05_smutek_a (siedząca) + lumi_01 | 0d2b… (4 wersje) | odrzucone: Lumi na krześle zamiast ławki, za duży |
+| 12.11 | 16 | amelia_05_smutek (stojąca) + lumi_01 | d56fb3e3-5102-42a3-8a70-ac0041318324 (2) | kandydat (rygor twarzy) |
+| 12.11 | 17 | amelia_05_smutek + lumi_01 | 0232bca0-4858-43d7-90f7-16b87e3fdaaa (1) → edycja b3374f9c-ef50-430d-8b74-dcdf6150fd4c (2) | kandydat |
+| 12.11 | 18 | amelia_05_smutek + lumi_01 | 409949a8-332e-475f-84c4-4bed54dbcce5 (1) → edycja ab2bf318-2e5e-4ebb-9962-19fae84ce91e (0) | kandydat |
+| 12.11 | 19 | amelia_06_placz_stojac + lumi_01 | c7f16d39-… / f622e1b2-… | odrzucone: Lumi z łapkami, poręcze schodów (pionowe linie) |
+| 13.11 | 19 | amelia_06_placz_stojac + lumi_01 | d83f3324-51b6-4b91-9ace-c7b60f184d5a (1) | kandydat: zamknięte schody bez poręczy |
+| 13.11 | 20 | amelia_05_smutek + lumi_01 | 523483ca-93e0-4947-8507-5a6b94689f49 (3) | kandydat |
+| 13.11 | 21 | amelia_05_smutek + lumi_01 | b4f98d6b-165a-4962-ae68-441c642eb631 (0) | kandydat |
