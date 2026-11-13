@@ -19,7 +19,7 @@ Ostatnia aktualizacja / last update: 13.11.2026, 11:50
 - Przeglądarka czasem zwraca „Couldn't determine which page” — odczekaj 20 s, tabs_context, ponów.
 
 ## Następne kroki / Next steps
-1. Zrzucić Lumi (wersja 3), dodać warstwę do s23.json obok ramienia Amelii, pokazać stronę 23. / Capture Lumi v3, add to s23.json, show page 23.
+1. Strona 23 pokazana (11:55): Leo 0.68, Amelia 0.6, Lumi 2e7b3096-640b-43de-8d94-74fefcd69841/2 (skala 0.18). Czeka na ocenę. / Page 23 shown, waiting for feedback.
 2. Po akceptacji: warstwy dla stron 22 i 24 (Leo + Amelia + Lumi) oraz 19, 20, 21 (Amelia + Lumi) na tym samym tle. Tekst stron: tekst/ksiazka_pl_en.md.
 3. Potem strony 25–30 i okładka (25: klasa ze strony 16 — to też to samo miejsce!).
 4. Druk: podmienić zrzuty na pełną jakość z MJ (pobiera użytkownik) i uruchomić sklej.py ponownie.
