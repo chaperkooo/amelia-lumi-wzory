@@ -40,7 +40,9 @@ page = load(cfg['plansza']).convert('RGBA')
 for L in cfg['warstwy']:
     c = cutout(L['plik'], L.get('klucz'), biale=L.get('biale', False), usun=L.get('usun', ()))
     if 'wytnij' in L:  # weź tylko część warstwy (np. samą Amelię) / keep only part of the layer
-        box = Image.new('L', c.size, 0); ImageDraw.Draw(box).rectangle(L['wytnij'], fill=255)
+        box = Image.new('L', c.size, 0)
+        rects = L['wytnij'] if isinstance(L['wytnij'][0], list) else [L['wytnij']]
+        for r in rects: ImageDraw.Draw(box).rectangle(r, fill=255)
         a = np.minimum(np.array(c)[..., 3], np.array(box)); c.putalpha(Image.fromarray(a))
     c = c.resize((int(700 * L['skala']), int(700 * L['skala'])), Image.LANCZOS)
     if 'cien' in L: shadow(page, *L['cien'])

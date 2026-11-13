@@ -1,0 +1,58 @@
+{
+ "plansza": "zrodla/plansza_podworko.png",
+ "wynik": "strona_28_warstwy.png",
+ "warstwy": [
+  {
+   "plik": "zrodla/s28_amelia_lumi.png",
+   "biale": true,
+   "wytnij": [
+    [
+     0,
+     255,
+     700,
+     700
+    ],
+    [
+     0,
+     90,
+     395,
+     255
+    ]
+   ],
+   "skala": 0.6,
+   "x": 38,
+   "y": 276,
+   "cien": [
+    190,
+    655,
+    110,
+    10
+   ]
+  },
+  {
+   "plik": "zrodla/s28_amelia_lumi.png",
+   "biale": true,
+   "wytnij": [
+    395,
+    50,
+    610,
+    260
+   ],
+   "skala": 0.42,
+   "x": 99,
+   "y": 316
+  },
+  {
+   "plik": "zrodla/s28_leo.png",
+   "skala": 0.56,
+   "x": 315,
+   "y": 302,
+   "cien": [
+    500,
+    660,
+    110,
+    10
+   ]
+  }
+ ]
+}
