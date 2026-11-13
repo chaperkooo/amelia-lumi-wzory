@@ -1,6 +1,47 @@
-{"plansza": "zrodla/plansza_schody.png", "wynik": "strona_23_warstwy.png",
+{
+ "plansza": "zrodla/plansza_schody.png",
+ "wynik": "strona_23_warstwy.png",
  "warstwy": [
-  {"plik": "zrodla/s23_leo.png", "klucz": [242, 216, 214], "skala": 0.68, "x": -104, "y": 208, "cien": [110, 650, 75, 9]},
-  {"plik": "zrodla/s23_amelia_lumi.png", "wytnij": [90, 80, 428, 660], "skala": 0.6, "x": 250, "y": 284, "cien": [405, 660, 95, 10]},
-  {"plik": "zrodla/s23_lumi.png", "skala": 0.18, "x": 497, "y": 402}
- ]}
+  {
+   "plik": "zrodla/s23_leo.png",
+   "klucz": [
+    242,
+    216,
+    214
+   ],
+   "skala": 0.68,
+   "x": -104,
+   "y": 208,
+   "cien": [
+    110,
+    650,
+    75,
+    9
+   ]
+  },
+  {
+   "plik": "zrodla/s23_amelia_lumi.png",
+   "wytnij": [
+    90,
+    80,
+    428,
+    660
+   ],
+   "skala": 0.6,
+   "x": 250,
+   "y": 284,
+   "cien": [
+    405,
+    660,
+    95,
+    10
+   ]
+  },
+  {
+   "plik": "zrodla/s23_lumi.png",
+   "skala": 0.24,
+   "x": 478,
+   "y": 380
+  }
+ ]
+}

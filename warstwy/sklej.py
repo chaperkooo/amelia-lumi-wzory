@@ -15,7 +15,7 @@ def cutout(p, key=None, min_px=800, biale=False, usun=()):
     rgb = np.array(im).astype(int)
     m = a > 0.5
     if biale:  # na białym tle: wszystko, co nie jest białe, też jest postacią / on white: non-white is character too
-        nw = np.abs(rgb - 255).sum(-1) > 60
+        nw = np.abs(rgb - 255).sum(-1) > 100
         m = ndimage.binary_fill_holes(m | nw); a = np.maximum(a, m.astype(float))
     for x0, y0, x1, y1 in usun: m[y0:y1, x0:x1] = False  # usuń resztki klocka / remove block leftovers
     if key:  # usuń kolor tła/klocka / remove background/block colour
