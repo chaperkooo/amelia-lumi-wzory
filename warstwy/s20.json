@@ -1,0 +1,19 @@
+{
+ "plansza": "zrodla/plansza_schody.png",
+ "wynik": "strona_20_warstwy.png",
+ "warstwy": [
+  {
+   "plik": "zrodla/s20_amelia_lumi.png",
+   "skala": 0.6,
+   "x": 256,
+   "y": 270,
+   "cien": [
+    400,
+    660,
+    95,
+    10
+   ],
+   "biale": true
+  }
+ ]
+}

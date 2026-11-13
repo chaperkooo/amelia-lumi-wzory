@@ -9,11 +9,15 @@ def load(p, crop=6):
     im = Image.open(p).convert('RGB'); w, h = im.size
     return im.crop((crop, crop, w - crop, min(h, w) - crop)).resize((700, 700), Image.LANCZOS)
 
-def cutout(p, key=None, min_px=800):
+def cutout(p, key=None, min_px=800, biale=False, usun=()):
     im = load(p)
     a = np.array(remove(im, session=S))[..., 3].astype(float) / 255
     rgb = np.array(im).astype(int)
     m = a > 0.5
+    if biale:  # na białym tle: wszystko, co nie jest białe, też jest postacią / on white: non-white is character too
+        nw = np.abs(rgb - 255).sum(-1) > 60
+        m = ndimage.binary_fill_holes(m | nw); a = np.maximum(a, m.astype(float))
+    for x0, y0, x1, y1 in usun: m[y0:y1, x0:x1] = False  # usuń resztki klocka / remove block leftovers
     if key:  # usuń kolor tła/klocka / remove background/block colour
         k = np.array(key); m &= np.abs(rgb - k).sum(-1) > 45
     m = ndimage.binary_opening(m, np.ones((5, 5)))
@@ -34,7 +38,7 @@ def shadow(base, cx, cy, rx, ry, op=70):
 cfg = json.load(open(sys.argv[1]))
 page = load(cfg['plansza']).convert('RGBA')
 for L in cfg['warstwy']:
-    c = cutout(L['plik'], L.get('klucz'))
+    c = cutout(L['plik'], L.get('klucz'), biale=L.get('biale', False), usun=L.get('usun', ()))
     if 'wytnij' in L:  # weź tylko część warstwy (np. samą Amelię) / keep only part of the layer
         box = Image.new('L', c.size, 0); ImageDraw.Draw(box).rectangle(L['wytnij'], fill=255)
         a = np.minimum(np.array(c)[..., 3], np.array(box)); c.putalpha(Image.fromarray(a))

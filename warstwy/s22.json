@@ -1,0 +1,36 @@
+{
+ "plansza": "zrodla/plansza_schody.png",
+ "wynik": "strona_22_warstwy.png",
+ "warstwy": [
+  {
+   "plik": "zrodla/s22_leo.png",
+   "klucz": [
+    254,
+    229,
+    225
+   ],
+   "skala": 0.7,
+   "x": -98,
+   "y": 210,
+   "cien": [
+    115,
+    652,
+    75,
+    9
+   ]
+  },
+  {
+   "plik": "zrodla/s22_amelia_lumi.png",
+   "skala": 0.6,
+   "x": 261,
+   "y": 292,
+   "cien": [
+    400,
+    660,
+    95,
+    10
+   ],
+   "biale": true
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "plansza": "zrodla/plansza_schody.png",
+ "wynik": "strona_24_warstwy.png",
+ "warstwy": [
+  {
+   "plik": "zrodla/s24_leo.png",
+   "klucz": [
+    252,
+    193,
+    179
+   ],
+   "skala": 0.62,
+   "x": -84,
+   "y": 237,
+   "cien": [
+    125,
+    652,
+    75,
+    9
+   ],
+   "usun": [
+    [
+     0,
+     510,
+     278,
+     700
+    ],
+    [
+     474,
+     520,
+     700,
+     700
+    ]
+   ]
+  },
+  {
+   "plik": "zrodla/s24_amelia_lumi.png",
+   "skala": 0.6,
+   "x": 250,
+   "y": 292,
+   "cien": [
+    400,
+    660,
+    95,
+    10
+   ],
+   "biale": true
+  }
+ ]
+}
