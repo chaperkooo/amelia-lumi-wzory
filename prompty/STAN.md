@@ -20,6 +20,6 @@ Ostatnia aktualizacja / last update: 13.11.2026, 11:50
 
 ## Następne kroki / Next steps
 1. Strona 23 pokazana (11:55): Leo 0.68, Amelia 0.6, Lumi 2e7b3096-640b-43de-8d94-74fefcd69841/2 (skala 0.18). Czeka na ocenę. / Page 23 shown, waiting for feedback.
-2. Po akceptacji: warstwy dla stron 22 i 24 (Leo + Amelia + Lumi) oraz 19, 20, 21 (Amelia + Lumi) na tym samym tle. Tekst stron: tekst/ksiazka_pl_en.md.
+2. 15:55 wysłane do MJ (6 jobów, kolejno od najstarszego): Leo 22 (rysuje w zeszycie), Leo 24 (wskazuje w prawo), Amelia+Lumi 22 (smutna, Lumi oczy zamknięte), Amelia+Lumi 24 (nieśmiały uśmiech, Lumi świeci), Amelia+Lumi 19 (płacz skulona), Amelia+Lumi 20 (smutna, gwiazdka prawie zgasła). Następnie: wybrać wersje, zrzucić (save_to_disk), sNN.json, złożyć. Strona 21: plansza nie ma okna (tekst: deszcz za oknem) — zapytać użytkownika. / 6 layer jobs sent; next: pick, capture, compose. Page 21: plate has no window — ask user.
 3. Potem strony 25–30 i okładka (25: klasa ze strony 16 — to też to samo miejsce!).
 4. Druk: podmienić zrzuty na pełną jakość z MJ (pobiera użytkownik) i uruchomić sklej.py ponownie.
