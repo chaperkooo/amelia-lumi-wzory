@@ -1,5 +1,5 @@
 # STAN PRAC — czytaj najpierw / WORK STATUS — read first
-Ostatnia aktualizacja / last update: 13.11.2026, 16:35
+Ostatnia aktualizacja / last update: 13.11.2026, 17:00
 
 ## Gdzie jesteśmy / Where we are
 - Strony 3–21 zaakceptowane (folder MJ „KSIAZKA strony gotowe”). Strony 22–25: kandydaci, NIE akceptowane. / Pages 3–21 approved; 22–25 candidates only.
@@ -20,6 +20,10 @@ Ostatnia aktualizacja / last update: 13.11.2026, 16:35
 
 ## Następne kroki / Next steps
 1. Strona 23 pokazana (11:55): Leo 0.68, Amelia 0.6, Lumi 2e7b3096-640b-43de-8d94-74fefcd69841/2 (skala 0.18). Czeka na ocenę. / Page 23 shown, waiting for feedback.
-2. 16:50: strona 28 złożona (warstwy/strona_28_warstwy.png; Leo 0f227938-1116-49d2-a55a-b62914a9e822/0; Lumi jako osobna mniejsza warstwa z pliku Amelii) — czeka. Wcześniej: strony 19, 20, 22, 23, 24 ZAAKCEPTOWANE (warstwy). Strona 21 złożona bez okna (warstwy/strona_21_warstwy.png) — czeka. Strona 25 (klasa) — stary kandydat 6c2cf30e/2, czeka. Plansza podwórka (strona 28, jak strona 17): b4633e1c-3a6b-4568-95ed-bb836275d3cf/0 → warstwy/zrodla/plansza_podworko.png. Wysłane: Leo 28 (klęczy, rysuje kredą, różowe tło) i Amelia+Lumi 28 (klęczy, pokazuje niebo) — do zrzucenia i złożenia. Strony 3–8 (ogród 3–6, sypialnia 7, łóżko 8) NIE są w folderach MJ — zapytać użytkownika o linki, potrzebne jako plansze do 26–27 (sypialnia) i 29–30 (ogród).
+2. 17:00: ZAAKCEPTOWANE strony 3–25 i 28 (19–24 i 28 z warstw). Strona 25 dodana do folderu MJ „KSIAZKA strony gotowe”.
+   ZOSTAŁO / LEFT: 26, 27 (sypialnia/łóżko), 29, 30 (ogród), okładka; potem strony 1–2, 31–32 i składanie PDF.
+   - Plansza łóżka: strona 8 = 61abad49-3a5a-4e8e-9138-459f490f01e4/0 (widok z góry, granatowe tło, niebieski kocyk). Pomysł na 26: edytor na stronie 8 — zamaluj tylko twarz Amelii i Lumi i opisz nową minę (tło zostaje w 100%), ALE edytor nie ma wzorów → sprawdź twarz rygorem 95%. Na 27 (siedzi w łóżku): zapytać użytkownika lub warstwy na planszy ze strony 7 (pokój z okrągłym oknem; kandydaci w Organize, szukaj „blocks”, 29.09 — dokładny job do ustalenia, porównaj z strony/podglad/strona_07_podglad.png).
+   - Ogród (29, 30, okładka): plansza ze strony 4 lub 5 (strony/podglad/strona_04/05) — znaleźć job w Organize (szukaj np. „rose”), Smart Select → Erase selection → plansza; 30 = ta sama plansza w wieczornych kolorach (kolor w sklej.py).
+   - Porządki w MJ: z folderu „KSIAZKA strony gotowe” usunąć stare strony 19, 20, 21 (stare schody). Dodać do folderu (albo nowego „KSIAZKA warstwy”) źródła warstw: plansze 44370eb9/0, b4633e1c/0 i postacie z warstwy/sNN.json (część jobów bez ID — najnowsze z 13.11 w Create).
 3. Potem strony 25–30 i okładka (25: klasa ze strony 16 — to też to samo miejsce!).
 4. Druk: podmienić zrzuty na pełną jakość z MJ (pobiera użytkownik) i uruchomić sklej.py ponownie.
