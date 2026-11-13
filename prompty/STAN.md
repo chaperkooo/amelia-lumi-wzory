@@ -1,5 +1,5 @@
 # STAN PRAC — czytaj najpierw / WORK STATUS — read first
-Ostatnia aktualizacja / last update: 13.11.2026, 16:20
+Ostatnia aktualizacja / last update: 13.11.2026, 16:35
 
 ## Gdzie jesteśmy / Where we are
 - Strony 3–21 zaakceptowane (folder MJ „KSIAZKA strony gotowe”). Strony 22–25: kandydaci, NIE akceptowane. / Pages 3–21 approved; 22–25 candidates only.
@@ -20,6 +20,6 @@ Ostatnia aktualizacja / last update: 13.11.2026, 16:20
 
 ## Następne kroki / Next steps
 1. Strona 23 pokazana (11:55): Leo 0.68, Amelia 0.6, Lumi 2e7b3096-640b-43de-8d94-74fefcd69841/2 (skala 0.18). Czeka na ocenę. / Page 23 shown, waiting for feedback.
-2. 16:20 GOTOWE kandydaci z warstw: strony 19, 20, 22, 23, 24 (warstwy/strona_NN_warstwy.png, podgląd zbiorczy warstwy/strony_19-24_warstwy.jpg). Czekają na ocenę. Joby: 20 Amelia c917b934-900e-439a-9d19-02664fa40bc3/3, Leo 22 91fd150f-fa6c-446c-a95b-ed215882287d/0, reszta: najnowsze joby w Create (Amelia 19 v2, 22 v2, 24 v2, Leo 24 v2). Strona 21: plansza nie ma okna (tekst: deszcz za oknem) — zapytać. / Candidates ready, waiting for review.
+2. 16:35: strony 19, 20, 22, 23, 24 ZAAKCEPTOWANE (warstwy). Strona 21 złożona bez okna (warstwy/strona_21_warstwy.png) — czeka. Strona 25 (klasa) — stary kandydat 6c2cf30e/2, czeka. Plansza podwórka (strona 28, jak strona 17): b4633e1c-3a6b-4568-95ed-bb836275d3cf/0 → warstwy/zrodla/plansza_podworko.png. Wysłane: Leo 28 (klęczy, rysuje kredą, różowe tło) i Amelia+Lumi 28 (klęczy, pokazuje niebo) — do zrzucenia i złożenia. Strony 3–8 (ogród 3–6, sypialnia 7, łóżko 8) NIE są w folderach MJ — zapytać użytkownika o linki, potrzebne jako plansze do 26–27 (sypialnia) i 29–30 (ogród).
 3. Potem strony 25–30 i okładka (25: klasa ze strony 16 — to też to samo miejsce!).
 4. Druk: podmienić zrzuty na pełną jakość z MJ (pobiera użytkownik) i uruchomić sklej.py ponownie.
