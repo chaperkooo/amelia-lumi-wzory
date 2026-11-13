@@ -1,0 +1,5 @@
+{"plansza": "zrodla/plansza_schody.png", "wynik": "strona_23_warstwy.png",
+ "warstwy": [
+  {"plik": "zrodla/s23_leo.png", "klucz": [242, 216, 214], "skala": 0.5, "x": -60, "y": 298, "cien": [105, 626, 60, 8]},
+  {"plik": "zrodla/s23_amelia_lumi.png", "skala": 0.45, "x": 283, "y": 379, "cien": [400, 660, 72, 9]}
+ ]}
