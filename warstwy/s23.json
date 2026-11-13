@@ -1,5 +1,5 @@
 {"plansza": "zrodla/plansza_schody.png", "wynik": "strona_23_warstwy.png",
  "warstwy": [
-  {"plik": "zrodla/s23_leo.png", "klucz": [242, 216, 214], "skala": 0.5, "x": -60, "y": 298, "cien": [105, 626, 60, 8]},
-  {"plik": "zrodla/s23_amelia_lumi.png", "skala": 0.45, "x": 283, "y": 379, "cien": [400, 660, 72, 9]}
+  {"plik": "zrodla/s23_leo.png", "klucz": [242, 216, 214], "skala": 0.68, "x": -104, "y": 208, "cien": [110, 650, 75, 9]},
+  {"plik": "zrodla/s23_amelia_lumi.png", "wytnij": [90, 80, 428, 660], "skala": 0.6, "x": 250, "y": 292, "cien": [405, 668, 95, 10]}
  ]}

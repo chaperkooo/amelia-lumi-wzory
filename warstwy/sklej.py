@@ -35,6 +35,9 @@ cfg = json.load(open(sys.argv[1]))
 page = load(cfg['plansza']).convert('RGBA')
 for L in cfg['warstwy']:
     c = cutout(L['plik'], L.get('klucz'))
+    if 'wytnij' in L:  # weź tylko część warstwy (np. samą Amelię) / keep only part of the layer
+        box = Image.new('L', c.size, 0); ImageDraw.Draw(box).rectangle(L['wytnij'], fill=255)
+        a = np.minimum(np.array(c)[..., 3], np.array(box)); c.putalpha(Image.fromarray(a))
     c = c.resize((int(700 * L['skala']), int(700 * L['skala'])), Image.LANCZOS)
     if 'cien' in L: shadow(page, *L['cien'])
     page.alpha_composite(c, (L['x'], L['y']))
