@@ -30,3 +30,7 @@ Every generation: date, page, references, job ID, result. The full prompt is sto
 | 13.11 | 19 | amelia_06_placz_stojac + lumi_01 | d83f3324-51b6-4b91-9ace-c7b60f184d5a (1) | kandydat: zamknięte schody bez poręczy |
 | 13.11 | 20 | amelia_05_smutek + lumi_01 | 523483ca-93e0-4947-8507-5a6b94689f49 (3) | kandydat |
 | 13.11 | 21 | amelia_05_smutek + lumi_01 | b4f98d6b-165a-4962-ae68-441c642eb631 (0) | kandydat |
+| 13.11 | 22 | amelia_05_smutek + leo_01 + lumi_01 | 9ff55294-41dc-4703-be43-4d9e34c5d1bd (0) | kandydat |
+| 13.11 | 23 | amelia_03_zagubiona + leo_01 + lumi_01 | e3531124-1a4f-4091-bcfb-414280e75ca0 (0) | kandydat |
+| 13.11 | 24 | amelia_01_radosna_WZOR + leo_01 + lumi_01 | a855336d-709c-4650-a215-429b68b8de43 (2; alt 3) | kandydat |
+| 13.11 | 25 | amelia_01_radosna_WZOR + leo_01 + lumi_01 | 6c2cf30e-10ac-4121-9c43-a1202919eeb8 (2) | kandydat |

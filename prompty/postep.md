@@ -91,3 +91,9 @@ Panel „Add images” (ikonka po lewej od pola promptu). Kolejność (najnowsze
 - Szelki przy skulonej pozie: „arms hugging her shins low, so … both dungaree straps are clearly visible”.
 - Twarz czytelna: „the girl fills about half of the picture height” albo „medium-wide view”.
 - Klasa: wzór amelia_05_smutek (stojąca) daje lepszą twarz niż siedząca; Lumi „on top of her desk” zamiast „next to her hands”.
+
+## Wnioski 13.11 — sceny z Leo / Leo scenes
+- Trzy wzory (Amelia, Leo, Lumi) w tej kolejności działają dobrze; Leo zgodny ze wzorem (włosy, rakieta, słuchawki, trampki).
+- „a few steps away from her, not touching her” — Leo nie dotyka Amelii, jej włosy zostają jasne.
+- Przy „dark hair, brown eyes” w --no trzeba uważać: w scenie z Leo psuje to jego wygląd — w scenach z Leo nie wpisywać tych słów do --no.
+- „pointing from a distance towards the star on her T-shirt” — Midjourney celuje palcem w twarz; do poprawy w kolejnych scenach.
