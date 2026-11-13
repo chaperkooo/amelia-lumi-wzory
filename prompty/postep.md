@@ -97,3 +97,18 @@ Panel „Add images” (ikonka po lewej od pola promptu). Kolejność (najnowsze
 - „a few steps away from her, not touching her” — Leo nie dotyka Amelii, jej włosy zostają jasne.
 - Przy „dark hair, brown eyes” w --no trzeba uważać: w scenie z Leo psuje to jego wygląd — w scenach z Leo nie wpisywać tych słów do --no.
 - „pointing from a distance towards the star on her T-shirt” — Midjourney celuje palcem w twarz; do poprawy w kolejnych scenach.
+
+## 13.11 — jedno miejsce = to samo tło w 100% / one place = 100% the same background
+- Użytkownik: „wszystkie strony ze schodami muszą mieć w 100% takie same schody”. Midjourney nie narysuje dwa razy identycznego tła (nawet z obrazkiem jako wzorem). / The user: all stair pages must have 100% identical stairs. Midjourney never draws the same background twice.
+- Wybrana metoda: WARSTWY. 1) Tło bez postaci (plansza) robione raz. 2) Postacie z wzorami na gładkim jasnoszarym tle. 3) Wycinam postacie (rembg, model isnet-anime) i nakładam na planszę, dodaję miękki cień pod postacią. / Chosen method: LAYERS. 1) One empty background plate. 2) Characters with references on a plain light grey background. 3) Cut them out (rembg isnet-anime) and place on the plate with a soft shadow.
+- Plansza „pod schodami” (strony 19–24): ze strony 22 w edytorze: Smart Select na 3 postaciach → Erase selection → opis pustego miejsca. Łańcuch: 9ff55294/0 → aad51de0-7b5b-494b-a458-0bfbfae61f8c/1 → 7b24e50c-56c3-47bb-a6b7-c69341fb3047/0 (usunięty cień-duch) → kolejna edycja (usunięta plama na stopniach, ID do wpisania). / Plate from page 22 via editor Smart Select + Erase selection.
+- W edytorze zawsze dopisz do --no: silhouette, shadow, bo po usunięciu postaci zostają „duchy”-cienie. / Always add silhouette, shadow to --no, or ghost shadows stay.
+- Smart Select zaznacza postać jednym kliknięciem (zielona). Duża gumka (suwak w prawo) zamazuje prawie cały obraz — używaj domyślnej. / Smart Select picks a whole character; keep the eraser at default size.
+- Przeciąganie obrazka z galerii na „Attach to prompt” nie działa z wyników Create; adres URL obrazka w prompcie nie daje identycznego tła. / Dragging from the Create feed fails; an image URL in the prompt does not give an identical background.
+- Druk: wycinki i plansza w pełnej jakości będą potrzebne przy składaniu (pobiera użytkownik). Teraz robię podglądy z zrzutów. / Print: full-quality layers are needed at assembly (the user downloads them); drafts use screenshots.
+
+## Oszczędzanie tokenów / Saving tokens
+- Zrzuty w skali 0,4–0,6; powiększenie tylko wybranej wersji i tylko twarzy. / Screenshots at scale 0.4–0.6; zoom only the chosen version and faces.
+- Nie przewijać galerii (każde przewinięcie zwraca pełny zrzut) — otwierać job przez adres /jobs/<id>. / Do not scroll the feed; open jobs by URL.
+- Długie wpisywanie promptu: jedna akcja „type”, potem odczekać 40–60 s i jeden zrzut kontrolny. / Long prompts: one type action, wait, one check.
+- Raport: krótka tabela, bez ponownego wysyłania podglądów. Commit raz na partię. / Short table report, no re-sending previews, one commit per batch.
