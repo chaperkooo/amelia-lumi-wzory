@@ -1,0 +1,20 @@
+{
+ "plansza": "zrodla/plansza_ogrod.png",
+ "wynik": "strona_29_warstwy.png",
+ "warstwy": [
+  {
+   "plik": "zrodla/s29_amelia_lumi.png",
+   "biale": true,
+   "skala": 0.75,
+   "x": 133,
+   "y": 192,
+   "cien": [
+    380,
+    662,
+    90,
+    9
+   ]
+  }
+ ],
+ "blask": []
+}

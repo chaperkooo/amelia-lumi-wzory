@@ -1,0 +1,26 @@
+{
+ "plansza": "zrodla/plansza_ogrod.png",
+ "wynik": "okladka_warstwy.png",
+ "warstwy": [
+  {
+   "plik": "zrodla/okladka_amelia_lumi.png",
+   "biale": true,
+   "skala": 0.72,
+   "x": 114,
+   "y": 207,
+   "cien": [
+    336,
+    650,
+    85,
+    9
+   ]
+  }
+ ],
+ "blask": [
+  [
+   467,
+   322,
+   18
+  ]
+ ]
+}

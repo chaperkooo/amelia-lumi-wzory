@@ -34,3 +34,12 @@ Every generation: date, page, references, job ID, result. The full prompt is sto
 | 13.11 | 23 | amelia_03_zagubiona + leo_01 + lumi_01 | e3531124-1a4f-4091-bcfb-414280e75ca0 (0) | kandydat |
 | 13.11 | 24 | amelia_01_radosna_WZOR + leo_01 + lumi_01 | a855336d-709c-4650-a215-429b68b8de43 (2; alt 3) | kandydat |
 | 13.11 | 25 | amelia_01_radosna_WZOR + leo_01 + lumi_01 | 6c2cf30e-10ac-4121-9c43-a1202919eeb8 (2) | kandydat |
+| 13.11 | 26 | amelia_01_radosna_WZOR + lumi_01 (edytor na stronie 8, zamalowane tylko twarze) | 87310a4a-22fc-47a4-b631-4c6326759a22 (2) | odrzucone: Lumi mruga (jedno oko zamknięte) |
+| 13.11 | 26 | lumi_01 (edytor, zamalowana cała buzia Lumi) | c3cb5766-2ded-48fe-be21-508b060ad7cf (0) | kandydat |
+| 13.11 | plansza ogrodu | — (edytor na stronie 3: 4a1312f2-11d6-4912-b614-5b07cf0b9143/1, Smart Select → Erase selection) | 649eacce-628e-4193-8f2d-026f76e316d4 (0) | plansza do 29, 30 i okładki |
+| 15.11 | 29 (warstwa) | amelia_08_spokoj + lumi_01 | c935a72c-4ebd-46fd-b7af-3e8651975007 (0) | kandydat (wersja 2: brak piegów) |
+| 15.11 | 30 (warstwa) | amelia_08_spokoj + lumi_01 | 8ec79ce1-1de0-4271-88c3-fa601aa4a4b0 (2) | kandydat |
+| 15.11 | 30 (warstwa) | leo_01_spokojny_WZOR | fe3196a4-2026-4d59-a44a-ebab4f2019ab (0) | kandydat |
+| 15.11 | plansza sypialni | — (edytor na stronie 7: 2d8601d8-a449-4a57-988e-3c20051c9d75/3) | aa753681-839b-47b6-9d96-c472043cb4a9 (0) | plansza do 27 (lekki cień na podłodze) |
+| 15.11 | 27 (warstwa) | amelia_08_spokoj + lumi_01 | 47839ddb-d8c7-4cea-b68c-d14088115bab (1) | kandydat; Lumi za duży → wycięty osobno i zmniejszony |
+| 15.11 | okładka (warstwa) | amelia_01_radosna_WZOR + lumi_01 | 0a8fefbd-3f90-4a67-bcb3-87b007d60b9e (0) | kandydat |

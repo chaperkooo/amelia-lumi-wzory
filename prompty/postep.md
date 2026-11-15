@@ -112,3 +112,11 @@ Panel „Add images” (ikonka po lewej od pola promptu). Kolejność (najnowsze
 - Nie przewijać galerii (każde przewinięcie zwraca pełny zrzut) — otwierać job przez adres /jobs/<id>. / Do not scroll the feed; open jobs by URL.
 - Długie wpisywanie promptu: jedna akcja „type”, potem odczekać 40–60 s i jeden zrzut kontrolny. / Long prompts: one type action, wait, one check.
 - Raport: krótka tabela, bez ponownego wysyłania podglądów. Commit raz na partię. / Short table report, no re-sending previews, one commit per batch.
+
+## Wnioski 13–15.11 — strony 26–30 i okładka / Lessons
+- Strona 26 = edytor na stronie 8 (tło zostaje w 100%). Zamalowuj tylko twarze: suwak pędzla na minimum, klikaj kropki (przeciągnięcie maluje tylko początek i koniec). Zamaluj całą buzię Lumi z OBOJGIEM oczu, inaczej Lumi mruga. / Page 26 = editor on page 8; erase only faces with small dots; erase both of Lumi's eyes or he winks.
+- Strona 3 = 4a1312f2-11d6-4912-b614-5b07cf0b9143/1 → plansza ogrodu 649eacce/0. Strona 7 = 2d8601d8-a449-4a57-988e-3c20051c9d75/3 → plansza sypialni aa753681/0. / Page 3 and 7 jobs found; garden and bedroom plates made.
+- Wieczór i noc robi skrypt, a nie Midjourney (geometria tła zostaje w 100%): w sNN.json `"wieczor": true` (niebo → gradient z gwiazdkami) albo `"noc": [x0,y0,x1,y1 okna]`. `"blask": [[x,y,r]]` = poświata gwiazdki. / Dusk and night are done by the script so the plate stays identical.
+- Lumi w warstwie z Amelią często wychodzi wielkości jej głowy. Wycinam go osobno wielokątem (`"wytnij": [[x,y],...]`) i zmniejszam. `"usun_biale": [[x0,y0,x1,y1]]` usuwa białą szparę między włosami a Lumi. / Lumi often too big: cut him out with a polygon and scale down.
+- Przy węższym oknie przeglądarki (wysokość 647) duży podgląd ma obrazek w [430,106,934,610] → zrzut 630×630; sklej.py to obsługuje. / Smaller window: zoom region [430,106,934,610].
+- Gwiazdka na koszulce Amelii w warstwach wychodzi czasem pomarańczowa zamiast żółtej. / Shirt star sometimes orange-ish.

@@ -1,29 +1,33 @@
 # STAN PRAC — czytaj najpierw / WORK STATUS — read first
-Ostatnia aktualizacja / last update: 13.11.2026, 17:00
+Ostatnia aktualizacja / last update: 15.11.2026, 19:00
 
 ## Gdzie jesteśmy / Where we are
-- Strony 3–21 zaakceptowane (folder MJ „KSIAZKA strony gotowe”). Strony 22–25: kandydaci, NIE akceptowane. / Pages 3–21 approved; 22–25 candidates only.
-- NOWA ZASADA użytkownika: strony w tym samym miejscu (schody: 19–24) mają w 100% identyczne tło. Metoda WARSTW zaakceptowana (11:42). / NEW RULE: same place = 100% identical background. LAYER method approved.
-- Uwagi użytkownika do próbki strony 23: postacie za małe względem schodów (POPRAWIONE: Leo skala 0.68, Amelia 0.6), dziwna mina Lumi (W TRAKCIE: nowa warstwa Lumi). Skóry/włosów Amelii i spojrzenia Leo NIE kazał poprawiać. / Feedback: characters too small (fixed), Lumi's face odd (in progress).
+- Strony 3–25 i 28 zaakceptowane (folder MJ „KSIAZKA strony gotowe”). / Pages 3–25 and 28 approved.
+- 15.11: kandydaci 26, 27, 29, 30 i przód okładki — CZEKAJĄ na ocenę użytkownika. Zbiorczy podgląd: `warstwy/strony_26-30_okladka.jpg`. / Candidates for 26, 27, 29, 30 and front cover are waiting for review.
+- Zasada: to samo miejsce = w 100% to samo tło (metoda WARSTW). / Rule: same place = 100% identical background (LAYER method).
+
+## Plansze (tła) / Plates
+| Miejsce / Place | Plik | Job MJ | Strony / Pages |
+|---|---|---|---|
+| schody / stairs | `warstwy/zrodla/plansza_schody.png` | 44370eb9-9dcb-4097-9df3-b5a49e6f94a6/0 | 19–24 |
+| podwórko / playground | `warstwy/zrodla/plansza_podworko.png` | b4633e1c-3a6b-4568-95ed-bb836275d3cf/0 | 28 (17) |
+| ogród ze strony 3 / garden | `warstwy/zrodla/plansza_ogrod.png` | 649eacce-628e-4193-8f2d-026f76e316d4/0 | 29, 30 (wieczór), okładka |
+| sypialnia ze strony 7 / bedroom | `warstwy/zrodla/plansza_sypialnia.png` | aa753681-839b-47b6-9d96-c472043cb4a9/0 | 27 (noc) |
+| łóżko ze strony 8 / bed | (bez planszy — edycja strony 8) | 61abad49-3a5a-4e8e-9138-459f490f01e4/0 | 26 = c3cb5766-2ded-48fe-be21-508b060ad7cf/0 |
 
 ## Pliki / Files
-- `warstwy/sklej.py` + `warstwy/sNN.json` → `python3 sklej.py sNN.json` (rembg isnet-anime: `pip install --break-system-packages "rembg[cpu]"`; uruchamiać w folderze `warstwy/`).
-- `warstwy/zrodla/plansza_schody.png` = tło schodów (MJ 44370eb9-9dcb-4097-9df3-b5a49e6f94a6/0).
-- Strona 23: Leo cf59e6e0-b1fd-4066-b060-a64851b090c2/0 (różowy klocek, klucz [242,216,214]); Amelia+Lumi 89fd2d35-d256-414b-b2d7-98ddb2550420/2 (bierzemy samą Amelię: „wytnij” [90,80,428,660]); nowy Lumi: najnowszy job w Create („the same creature, now floating… peeking”), wersja 3.
-- Pole „wytnij” w JSON = prostokąt w warstwie 700×700, który zostaje. / "wytnij" = box kept from the 700×700 layer.
+- `warstwy/sklej.py` + `warstwy/sNN.json` → `cd warstwy && python3 sklej.py sNN.json` (`pip install --break-system-packages "rembg[cpu]" scipy`).
+- Nowe w JSON / new keys: `"wieczor": true` (zmierzch, gwiazdki), `"noc": [okno x0,y0,x1,y1]` (noc w pokoju), `"blask": [[x,y,r]]` (poświata gwiazdki), `"wytnij"` może być wielokątem `[[x,y],...]`, `"usun_biale": [[x0,y0,x1,y1]]` (biała szpara między postaciami).
 
 ## Jak robić warstwy w Midjourney / How to make layers in MJ
-- Postać na „plain flat solid white background, nothing else in the picture” (+ --no stairs, wall, floor, furniture, shadow). Leo siedzący: „sitting on a low plain light pink block the same color as the background” na różowym tle → klocek usuwa klucz koloru.
-- Zrzut warstwy: otwórz job, najedź myszą na (1100,690), zoom regionu [402,105,962,667] z save_to_disk, skala 1 → plik 700×703 w /tmp/claude-tool-results/… (skopiuj do warstwy/zrodla).
-- Biblioteka (panel 248,43), rząd y=322: 478 amelia_03_a, 956 leo_01, 1052 amelia_01_WZOR, 1147 lumi_01_WZOR. Długi tekst: „type” może zgłosić timeout, ale się wpisuje — odczekaj 50 s i sprawdź zoomem.
-- Przeglądarka czasem zwraca „Couldn't determine which page” — odczekaj 20 s, tabs_context, ponów.
+- Postać na „plain flat solid white background, nothing else in the picture” (+ --no grass, ground, floor, shadow, wall, chair). Leo siedzący na ziemi: tylko „sitting cross-legged”, bez klocka.
+- Biblioteka (panel 248,41): rząd 1 y≈226: x 1148 = amelia_08_spokoj; rząd 2 y≈322: 957 leo_01, 1050 amelia_01_WZOR, 1148 lumi_01_WZOR. Kłódka zostawia załączniki po wysłaniu.
+- Zrzut warstwy: job → najedź na (1100,630) → zoom [402,105,962,667] (okno 703 wys.) albo [430,106,934,610] (okno 647 wys.) z save_to_disk.
+- Długi prompt: „type” zgłasza timeout, ale się wpisuje — odczekaj 30 s i sprawdź zrzutem.
 
 ## Następne kroki / Next steps
-1. Strona 23 pokazana (11:55): Leo 0.68, Amelia 0.6, Lumi 2e7b3096-640b-43de-8d94-74fefcd69841/2 (skala 0.18). Czeka na ocenę. / Page 23 shown, waiting for feedback.
-2. 17:00: ZAAKCEPTOWANE strony 3–25 i 28 (19–24 i 28 z warstw). Strona 25 dodana do folderu MJ „KSIAZKA strony gotowe”.
-   ZOSTAŁO / LEFT: 26, 27 (sypialnia/łóżko), 29, 30 (ogród), okładka; potem strony 1–2, 31–32 i składanie PDF.
-   - Plansza łóżka: strona 8 = 61abad49-3a5a-4e8e-9138-459f490f01e4/0 (widok z góry, granatowe tło, niebieski kocyk). Pomysł na 26: edytor na stronie 8 — zamaluj tylko twarz Amelii i Lumi i opisz nową minę (tło zostaje w 100%), ALE edytor nie ma wzorów → sprawdź twarz rygorem 95%. Na 27 (siedzi w łóżku): zapytać użytkownika lub warstwy na planszy ze strony 7 (pokój z okrągłym oknem; kandydaci w Organize, szukaj „blocks”, 29.09 — dokładny job do ustalenia, porównaj z strony/podglad/strona_07_podglad.png).
-   - Ogród (29, 30, okładka): plansza ze strony 4 lub 5 (strony/podglad/strona_04/05) — znaleźć job w Organize (szukaj np. „rose”), Smart Select → Erase selection → plansza; 30 = ta sama plansza w wieczornych kolorach (kolor w sklej.py).
-   - Porządki w MJ: z folderu „KSIAZKA strony gotowe” usunąć stare strony 19, 20, 21 (stare schody). Dodać do folderu (albo nowego „KSIAZKA warstwy”) źródła warstw: plansze 44370eb9/0, b4633e1c/0 i postacie z warstwy/sNN.json (część jobów bez ID — najnowsze z 13.11 w Create).
-3. Potem strony 25–30 i okładka (25: klasa ze strony 16 — to też to samo miejsce!).
-4. Druk: podmienić zrzuty na pełną jakość z MJ (pobiera użytkownik) i uruchomić sklej.py ponownie.
+1. Użytkownik ocenia 26, 27, 29, 30 i okładkę. Po akceptacji: dodać joby do folderu MJ „KSIAZKA strony gotowe” (dla warstw: plansze i postacie), status w GOTOWE.md.
+2. Pytanie do użytkownika: strona 8 i 26 mają mało miejsca na tekst (wąski granatowy pas). Czy zmniejszyć obie w edytorze (Scale ~72%), żeby było więcej granatu u góry? Obie zostaną identyczne.
+3. Porządki w MJ: z folderu „KSIAZKA strony gotowe” usunąć stare strony 19–21 (stare schody).
+4. Potem: strony 1–2 (tytułowa, prawa autorskie), 32 (Lumi — emocje), cała okładka (przód + grzbiet + tył, wymiary z KDP), składanie PDF.
+5. Druk: podmienić zrzuty na pełną jakość z MJ (pobiera użytkownik) i uruchomić sklej.py ponownie.
