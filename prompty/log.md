@@ -43,3 +43,5 @@ Every generation: date, page, references, job ID, result. The full prompt is sto
 | 15.11 | plansza sypialni | — (edytor na stronie 7: 2d8601d8-a449-4a57-988e-3c20051c9d75/3) | aa753681-839b-47b6-9d96-c472043cb4a9 (0) | plansza do 27 (lekki cień na podłodze) |
 | 15.11 | 27 (warstwa) | amelia_08_spokoj + lumi_01 | 47839ddb-d8c7-4cea-b68c-d14088115bab (1) | kandydat; Lumi za duży → wycięty osobno i zmniejszony |
 | 15.11 | okładka (warstwa) | amelia_01_radosna_WZOR + lumi_01 | 0a8fefbd-3f90-4a67-bcb3-87b007d60b9e (0) | kandydat |
+| 15.11 | 8 (miejsce na tekst) | — (edytor na stronie 8: Scale 72%, obrazek na dół, gumka po górnym pasku) | 264cb94e-df21-420b-958a-6038f8dfe847 (1) | kandydat; wersje 0, 2, 3 mają widoczny szew / visible seam |
+| 15.11 | 26 | — (twarze.py: nowa strona 8 + twarze z c3cb5766/0) | — | kandydat |

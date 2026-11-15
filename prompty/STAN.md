@@ -14,7 +14,7 @@ Ostatnia aktualizacja / last update: 15.11.2026, 19:15
 | podwórko / playground | `warstwy/zrodla/plansza_podworko.png` | b4633e1c-3a6b-4568-95ed-bb836275d3cf/0 | 28 (17) |
 | ogród ze strony 3 / garden | `warstwy/zrodla/plansza_ogrod.png` | 649eacce-628e-4193-8f2d-026f76e316d4/0 | 29, 30 (wieczór), okładka |
 | sypialnia ze strony 7 / bedroom | `warstwy/zrodla/plansza_sypialnia.png` | aa753681-839b-47b6-9d96-c472043cb4a9/0 | 27 (noc) |
-| łóżko ze strony 8 / bed | (bez planszy — edycja strony 8) | 61abad49-3a5a-4e8e-9138-459f490f01e4/0 | 26 = c3cb5766-2ded-48fe-be21-508b060ad7cf/0 |
+| łóżko ze strony 8 / bed | `warstwy/zrodla/plansza_lozko.png` | 264cb94e-df21-420b-958a-6038f8dfe847/1 (nowa strona 8) | 8, 26 (twarze z c3cb5766/0) |
 
 ## Pliki / Files
 - `warstwy/sklej.py` + `warstwy/sNN.json` → `cd warstwy && python3 sklej.py sNN.json` (`pip install --break-system-packages "rembg[cpu]" scipy`).
@@ -28,7 +28,7 @@ Ostatnia aktualizacja / last update: 15.11.2026, 19:15
 
 ## Następne kroki / Next steps
 1. (zrobione 15.11) akceptacja 26–30 i okładki. / done.
-2. Pytanie do użytkownika: strona 8 i 26 mają mało miejsca na tekst (wąski granatowy pas). Czy zmniejszyć obie w edytorze (Scale ~72%), żeby było więcej granatu u góry? Obie zostaną identyczne.
+2. 15.11: nowe wersje stron 8 i 26 z miejscem na tekst (8 = 264cb94e/1; 26 = `cd warstwy && python3 twarze.py s26.json`) — CZEKAJĄ na ocenę. Po akceptacji dodać 264cb94e/1 do folderu MJ (61abad49/0 i c3cb5766/0 zostają jako źródła dla strony 26).
 3. Porządki w MJ: z folderu „KSIAZKA strony gotowe” usunąć stare strony 19–21 (stare schody).
 4. Potem: strony 1–2 (tytułowa, prawa autorskie), 32 (Lumi — emocje), cała okładka (przód + grzbiet + tył, wymiary z KDP), składanie PDF.
 5. Druk: podmienić zrzuty na pełną jakość z MJ (pobiera użytkownik) i uruchomić sklej.py ponownie.
