@@ -1,28 +1,27 @@
 # STAN PRAC — czytaj najpierw / WORK STATUS — read first
-Ostatnia aktualizacja / last update: 15.11.2026, 19:05
+Ostatnia aktualizacja / last update: 15.11.2026, 19:10
 
 ## Gdzie jesteśmy / Where we are
 - Wszystkie strony z ilustracjami 3–30 i przód okładki mają ilustracje. / All illustrated pages 3–30 and the front cover have pictures.
-- Zaakceptowane / approved: 3–30 i przód okładki (stara wersja strony 8 też). / 3–30 and the front cover.
-- CZEKAJĄ na ocenę (15.11) / WAITING for review: nowe wersje stron 8 i 26 z miejscem na tekst (granatowa podłoga u góry ~1/3). Pierwsza rzecz w nowym wątku: zapytać o akceptację. / New versions of pages 8 and 26 with text space — ask for approval first.
+- ZAAKCEPTOWANE wszystkie strony z ilustracjami 3–30 i przód okładki, także nowe wersje stron 8 i 26 z miejscem na tekst (15.11). Nic nie czeka na ocenę. / ALL illustrated pages 3–30 and the front cover are approved, including the new pages 8 and 26. Nothing is waiting.
 - Zasada: to samo miejsce = w 100% to samo tło (metoda WARSTW i twarze.py). / Rule: same place = 100% identical background.
 
 ## Lista stron / Page list (szczegóły: `strony/GOTOWE.md`)
 | Strona | Jak powstała / How made | Źródło w MJ / MJ source |
 |---|---|---|
 | 3–7 | zwykłe obrazki / plain images | 3 = 4a1312f2/1, 7 = 2d8601d8/3 (reszta w Organize) |
-| 8 | NOWA (czeka): pomniejszona w edytorze / NEW (waiting) | 264cb94e-df21-420b-958a-6038f8dfe847/1 (stara: 61abad49/0) |
+| 8 | pomniejszona w edytorze, miejsce na tekst / shrunk for text space | 264cb94e-df21-420b-958a-6038f8dfe847/1 (stara: 61abad49/0) |
 | 9–18 | zwykłe obrazki | GOTOWE.md |
 | 19–24 | warstwy na planszy schodów | 44370eb9/0 + postacie (warstwy/s19–s24.json) |
 | 25 | zwykły obrazek | 6c2cf30e/2 |
-| 26 | NOWA (czeka): nowa strona 8 + twarze (`warstwy/twarze.py s26.json`) | 264cb94e/1 + 61abad49/0 + c3cb5766/0 |
+| 26 | nowa strona 8 + twarze (`warstwy/twarze.py s26.json`) | 264cb94e/1 + 61abad49/0 + c3cb5766/0 |
 | 27 | warstwy, pokój ze strony 7 nocą | aa753681/0 + 47839ddb/1 |
 | 28 | warstwy, podwórko ze strony 17 | b4633e1c/0 + postacie (s28.json) |
 | 29 | warstwy, ogród ze strony 3 | 649eacce/0 + c935a72c/0 |
 | 30 | warstwy, ten sam ogród wieczorem | 649eacce/0 + 8ec79ce1/2 + fe3196a4/0 |
 | okładka (przód) | warstwy, ogród ze strony 3 | 649eacce/0 + 0a8fefbd/0 |
 
-Folder MJ „KSIAZKA strony gotowe”: zaakceptowane strony + źródła warstw (plansze i postacie). Po akceptacji nowej strony 8 dodać tam 264cb94e/1. Stare strony 19–21 (stare schody) trzeba stamtąd usunąć. / MJ folder holds approved pages and layer sources.
+Folder MJ „KSIAZKA strony gotowe”: zaakceptowane strony + źródła warstw (plansze i postacie), w tym 264cb94e/1 i 61abad49/0 (dodane 15.11). Stare strony 19–21 (stare schody) trzeba stamtąd usunąć. / MJ folder holds approved pages and layer sources.
 
 ## Plansze (tła) / Plates
 | Miejsce / Place | Plik | Job MJ | Strony / Pages |
@@ -47,7 +46,7 @@ Folder MJ „KSIAZKA strony gotowe”: zaakceptowane strony + źródła warstw (
 - Długi prompt: „type” zgłasza timeout, ale się wpisuje — odczekaj 30 s i sprawdź zrzutem.
 
 ## Następne kroki / Next steps
-1. Akceptacja nowych stron 8 i 26 → dodać 264cb94e/1 do folderu MJ, status w GOTOWE.md. / Approve new 8 and 26.
+1. Porządki w MJ: usunąć z folderu „KSIAZKA strony gotowe” stare strony 19–21 (stare schody). / Remove old pages 19–21 from the MJ folder.
 2. Strony 1–2: tytułowa (tytuł i autor do ustalenia) i prawa autorskie / dedykacja. / Pages 1–2.
 3. Strona 31 (dla dorosłych, sam tekst) i 32 (pięć obrazków Lumi z emocjami — wzory lumi_01, lumi_02, lumi_03). / Pages 31–32.
 4. Pełna okładka: przód + grzbiet + tył. Wymiary, spad (bleed) i grzbiet sprawdzić na stronie KDP. / Full cover; check KDP specs online.
