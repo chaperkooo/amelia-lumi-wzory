@@ -1,9 +1,10 @@
 # STAN PRAC — czytaj najpierw / WORK STATUS — read first
-Ostatnia aktualizacja / last update: 15.11.2026, 19:00
+Ostatnia aktualizacja / last update: 15.11.2026, 19:15
 
 ## Gdzie jesteśmy / Where we are
 - Strony 3–25 i 28 zaakceptowane (folder MJ „KSIAZKA strony gotowe”). / Pages 3–25 and 28 approved.
-- 15.11: kandydaci 26, 27, 29, 30 i przód okładki — CZEKAJĄ na ocenę użytkownika. Zbiorczy podgląd: `warstwy/strony_26-30_okladka.jpg`. / Candidates for 26, 27, 29, 30 and front cover are waiting for review.
+- 15.11: ZAAKCEPTOWANE strony 26, 27, 29, 30 i przód okładki. Dodane do folderu MJ „KSIAZKA strony gotowe”: c3cb5766/0, aa753681/0, 47839ddb/1, 649eacce/0, c935a72c/0, 8ec79ce1/2, fe3196a4/0, 0a8fefbd/0. Zbiorczy podgląd: `warstwy/strony_26-30_okladka.jpg`. / Pages 26, 27, 29, 30 and front cover approved and added to the MJ folder (plates and characters too).
+- Wszystkie strony z ilustracjami 3–30 są zaakceptowane. / All illustrated pages 3–30 are approved.
 - Zasada: to samo miejsce = w 100% to samo tło (metoda WARSTW). / Rule: same place = 100% identical background (LAYER method).
 
 ## Plansze (tła) / Plates
@@ -26,7 +27,7 @@ Ostatnia aktualizacja / last update: 15.11.2026, 19:00
 - Długi prompt: „type” zgłasza timeout, ale się wpisuje — odczekaj 30 s i sprawdź zrzutem.
 
 ## Następne kroki / Next steps
-1. Użytkownik ocenia 26, 27, 29, 30 i okładkę. Po akceptacji: dodać joby do folderu MJ „KSIAZKA strony gotowe” (dla warstw: plansze i postacie), status w GOTOWE.md.
+1. (zrobione 15.11) akceptacja 26–30 i okładki. / done.
 2. Pytanie do użytkownika: strona 8 i 26 mają mało miejsca na tekst (wąski granatowy pas). Czy zmniejszyć obie w edytorze (Scale ~72%), żeby było więcej granatu u góry? Obie zostaną identyczne.
 3. Porządki w MJ: z folderu „KSIAZKA strony gotowe” usunąć stare strony 19–21 (stare schody).
 4. Potem: strony 1–2 (tytułowa, prawa autorskie), 32 (Lumi — emocje), cała okładka (przód + grzbiet + tył, wymiary z KDP), składanie PDF.
